@@ -3,7 +3,7 @@ from datetime import datetime
 
 class BD:
     def __init__(self, check):
-        self.db_name = "db/Прокат_Инструментов_2.db"
+        self.db_name = "Прокат_Инструментов.db"
         if check:
             self.user_id = -1
         else:
